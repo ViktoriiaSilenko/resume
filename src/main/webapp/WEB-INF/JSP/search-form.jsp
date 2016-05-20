@@ -5,8 +5,7 @@
 <%
 LoggerFactory.getLogger("search-form.jsp").debug("Display search-form.jsp");
 %>
-<html>
-<body>
+
 	<h2>Input name</h2>
 	<c:if test="${invalid }">
 	<h5 style="color:red;">Please input correct value!!!</h5>
@@ -15,5 +14,4 @@ LoggerFactory.getLogger("search-form.jsp").debug("Display search-form.jsp");
 		<input name="query" />
 		<input type="submit" value="Search" />
 	</form>
-</body>
-</html>
+
