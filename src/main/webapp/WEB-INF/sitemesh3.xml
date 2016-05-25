@@ -1,3 +1,23 @@
-<sitemesh>
+<!--  <sitemesh>
 	<mapping path="/*" decorator="/WEB-INF/template/page-template.jsp" />
+	<mapping path="/all_accounts.jsp" decorator="/WEB-INF/template/signout-template.jsp"/>
+</sitemesh> -->
+
+<sitemesh>
+
+	<mapping>
+		<path>/profile</path>
+		<path>/*</path>
+		<decorator>/WEB-INF/template/page-template.jsp</decorator>
+	</mapping>
+
+	<mapping>
+		<path>/all_accounts.jsp</path>
+		<path>/signin.jsp</path>
+		<path>/sign-up.jsp</path>
+		<path>/restore-access.jsp</path>
+		<path>/restore-complete.jsp</path>
+		<decorator>/WEB-INF/template/signout-template.jsp</decorator>
+	</mapping>
+
 </sitemesh>
