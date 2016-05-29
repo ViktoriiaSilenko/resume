@@ -11,12 +11,12 @@
 	<li class="list-group-item"> <h3 align="center"> Сертификаты </h3> </li>
 
 	<li class="list-group-item" id="certificateListItem">
-	<button type="button" onclick="removeCertificateListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+	<button type="button" id="removeCertificateButton" onclick="removeCertificateListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 <br>
 	
 	<p>JavaEE certificate:</p>
 
-		<img id="smallImage" src="/media/certificates/f12bbdcf-df07-460b-a18b-3f050e62588a-sm.jpg" 
+		<img id="smallImage" src="/media/certificates/19fdbd47-418f-4dab-9e23-021fc885e4c0-sm.jpg" 
 		class="img-responsive img-rounded img-thumbnail img-center" />
 	
 	</li>
@@ -41,7 +41,7 @@
 		j++;
 		
 		
-		var newCertificate = $('<li class="list-group-item" id="certificateListItem'+j+'"><button type="button" onclick="removeCertificateListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><br><p>JavaEE certificate:</p><img id="smallImage'+j+'" src="/media/certificates/f12bbdcf-df07-460b-a18b-3f050e62588a-sm.jpg" class="img-responsive img-rounded img-thumbnail img-center" /></li>');
+		var newCertificate = $('<li class="list-group-item" id="certificateListItem'+j+'"><button type="button" id="removeCertificateButton'+j+'" onclick="removeCertificateListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><br><p>JavaEE certificate:</p><img id="smallImage'+j+'" src="/media/certificates/19fdbd47-418f-4dab-9e23-021fc885e4c0-sm.jpg" class="img-responsive img-rounded img-thumbnail img-center" /></li>');
 		
 		$("#certificateList").append(newCertificate);
 		

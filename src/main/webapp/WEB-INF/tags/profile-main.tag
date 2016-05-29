@@ -3,7 +3,7 @@
 
 <div class="panel panel-primary">
 	<div class="panel-body">
-		<img src="/media/avatar/1775f3e6-b8b2-46e9-bda6-f4b68e133296.jpg" class="img-responsive img-rounded" style="width: 100%;" />
+		<img src="/media/avatar/0fe74f45-0dd7-4f16-8150-cb8c3560d050.jpg" class="img-responsive img-rounded" style="width: 100%;" />
 		<ul class="list-group">
 			<li class="list-group-item">
 				<h3 align="center">

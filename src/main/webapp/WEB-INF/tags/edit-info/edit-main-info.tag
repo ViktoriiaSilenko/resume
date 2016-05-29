@@ -254,7 +254,7 @@ calendar = {
 		<div class="col-md-7" >
 
 
-			Фото* <img src="/media/avatar/aaea6fe2-a840-4642-9b76-24ce76821b28-sm.jpg" class="img-responsive img-rounded" id="photo" /> 
+			Фото* <img src="/media/avatar/0fe74f45-0dd7-4f16-8150-cb8c3560d050-sm.jpg" class="img-responsive img-rounded" id="photo" /> 
 			
 			<label class="btn btn-default btn-file">
      		<input type="file" id="edit-main-info-filePath" name="edit-main-info-filePath" onchange="myFunction()" >

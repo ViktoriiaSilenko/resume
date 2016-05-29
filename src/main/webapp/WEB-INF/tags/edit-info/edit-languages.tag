@@ -11,18 +11,18 @@
 	<li class="list-group-item"> <h3 align="center"> Уровни владения иностранными языками </h3> </li>
 
 	<li class="list-group-item" id="languageListItem">
-	<button type="button" onclick="removeLanguageListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+	<button type="button" id="removeLanguageButton" onclick="removeLanguageListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 <br>
 	
 	<div class="row">
 
 		<div class="col-md-2">
 			<b>Тип</b> <br>
-			<select name="languageType[]">
+			<select name="languageType">
 				<option disabled>Не указано</option>
 				<option value="spoken" name="spoken">Разговорный</option>
 				<option selected value="writen" name="writen">Письменный</option>
-				</select> 
+			</select> 
 			
 		</div>
 		
@@ -65,7 +65,7 @@
 	
 </div>
 <br>
-<button type="button" style="color:blue;" onclick="addLang()" > + Добавить язык</button>
+<button type="button" style="color:blue;" onclick="addLang()" id="addLanguageButton" > + Добавить язык</button>
 <br>
 <br>
 <input type="submit" value="Сохранить" style=" display: table; margin: 0 auto; background:blue; color:white; text-align:center;">
@@ -102,7 +102,7 @@
 	function addLang() {
 		i++;
 		
-		var newLang = $('<li class="list-group-item" id="languageListItem'+i+'"><button type="button" onclick="removeLanguageListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><br><div class="row"><div class="col-md-2"><b>Тип</b> <br><select name="languageType'+i+'[]"><option disabled>Не указано</option><option name="spoken'+i+'" value="spoken">Разговорный</option><option selected name="writen'+i+'" value="writen">Письменный</option></select> </div><div class="col-md-3"><b>Язык</b> <br><input type="text" name="languageName'+i+'" value="English"></div><div class="col-md-7"><b>Уровень</b> <input type="range" id="rangeInput'+i+'" name="rangeInput'+i+'" step="1" min="1" max="7" onchange="rangeFunction(this)"> Beginner ...Elementary ...Pre-intermediate ...Intermediate ...Upper-intermediate ...Advanced ...Proficiency<br><label id="rangeText'+i+'"></label></div></div></li>'); 		
+		var newLang = $('<li class="list-group-item" id="languageListItem'+i+'"><button id="removeLanguageButton'+i+'" type="button" onclick="removeLanguageListItem(this)" style="float: right; color: red" ><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><br><div class="row"><div class="col-md-2"><b>Тип</b> <br><select name="languageType'+i+'"><option disabled>Не указано</option><option name="spoken'+i+'" value="spoken">Разговорный</option><option selected name="writen'+i+'" value="writen">Письменный</option></select> </div><div class="col-md-3"><b>Язык</b> <br><input type="text" name="languageName'+i+'" value="English"></div><div class="col-md-7"><b>Уровень</b> <input type="range" id="rangeInput'+i+'" name="rangeInput'+i+'" step="1" min="1" max="7" onchange="rangeFunction(this)"> Beginner ...Elementary ...Pre-intermediate ...Intermediate ...Upper-intermediate ...Advanced ...Proficiency<br><label id="rangeText'+i+'"></label></div></div></li>'); 		
 
 		$("#languageList").append(newLang);
 		

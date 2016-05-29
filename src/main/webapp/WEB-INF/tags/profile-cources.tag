@@ -3,7 +3,7 @@
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
-			<span class="glyphicon glyphicon-book" aria-hidden="true"></span> Courses <a class="navbar-right" href="#"><ins style="color: #FFFFFF">Edit</ins></a>
+			<span class="glyphicon glyphicon-book" aria-hidden="true"></span> Courses <a class="navbar-right" href="edit.jsp#courses"><ins style="color: #FFFFFF">Edit</ins></a>
 		</h3>
 	</div>
 	<div class="panel-body">
@@ -27,3 +27,4 @@
 		</ul>
 	</div>
 </div>
+

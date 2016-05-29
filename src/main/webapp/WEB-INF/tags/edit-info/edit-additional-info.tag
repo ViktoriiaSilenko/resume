@@ -7,7 +7,7 @@
 	<li class="list-group-item"><h2>О себе</h2></li>
 
 	<li class="list-group-item"><h4>Несколько слов о себе, которые предоставят Вам преимущества перед другими кандидатами</h4></li>
-	<li class="list-group-item"><input type="text" class="form-control" placeholder="Married" aria-describedby="basic-addon1">
+	<li class="list-group-item"><input type="text" size="100" class="form-control" placeholder="Married" aria-describedby="basic-addon1">
 		<p>Укажите дополнительную информацию, которая важна работодателю.</p></li>
 	<li class="list-group-item">
 		<!-- <button type="button" class="btn btn-primary">Сохранить</button> -->

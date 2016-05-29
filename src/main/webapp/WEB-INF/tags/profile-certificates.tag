@@ -11,7 +11,7 @@
 
 		<p>JavaEE certificate:</p>
 
-		<img id="smallImage" onclick="myFunction()" src="/media/certificates/f12bbdcf-df07-460b-a18b-3f050e62588a-sm.jpg" 
+		<img id="smallImage" onclick="myFunction()" src="/media/certificates/19fdbd47-418f-4dab-9e23-021fc885e4c0-sm.jpg" 
 		class="img-responsive img-rounded img-thumbnail img-center" />
 
 	</div>
@@ -58,10 +58,10 @@ function myFunction() {
 
 		<p>JavaEE certificate:</p>
 
-		<img id="smallImage" onclick="myFunction()" src="/media/certificates/f12bbdcf-df07-460b-a18b-3f050e62588a-sm.jpg" 
+		<img id="smallImage" onclick="myFunction()" src="/media/certificates/19fdbd47-418f-4dab-9e23-021fc885e4c0-sm.jpg" 
 		class="img-responsive img-rounded img-thumbnail img-center" />
 		
-		<a id="largeUrl" data-large-url="/media/certificates/f12bbdcf-df07-460b-a18b-3f050e62588a.jpg"></a>
+		<a id="largeUrl" data-large-url="/media/certificates/19fdbd47-418f-4dab-9e23-021fc885e4c0.jpg"></a>
 
 	</div>
 </div>

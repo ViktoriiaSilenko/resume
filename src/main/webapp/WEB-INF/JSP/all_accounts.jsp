@@ -13,7 +13,7 @@
 
 
 				<div class="col-md-4">
-					<img src="/media/avatar/aaea6fe2-a840-4642-9b76-24ce76821b28-sm.jpg" class="img-responsive img-rounded" />
+					<img src="/media/avatar/0fe74f45-0dd7-4f16-8150-cb8c3560d050-sm.jpg" class="img-responsive img-rounded" />
 				</div>
 
 				<div class="col-md-4">
